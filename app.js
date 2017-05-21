@@ -9,7 +9,7 @@ var config = {
   app_name: 'Bitkorio',
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
-  recaptcha_sitekey: '6LfI_QUTAAAAACrjjuzmLw0Cjx9uABxb8uguLbph',  // <----- EDIT ME!
+  recaptcha_sitekey: '6LfkUCIUAAAAANzA5pAiY10KcI6uPf1j0a_8N_5R',  // <----- EDIT ME!
   redirect_uri: 'https://nomfang2.github.io/Bitkorio/',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
@@ -18,7 +18,7 @@ var config = {
   debug: isRunningLocally(),
   // - Set this to true if you want users that come to http:// to be redirected
   //   to https://
-  force_https_redirect: !isRunningLocally(),
+  force_https_redirect: isRunningLocally(),
   // - Configure the house edge (default is 1%)
   //   Must be between 0.0 (0%) and 1.0 (100%)
   house_edge: 0.01,
