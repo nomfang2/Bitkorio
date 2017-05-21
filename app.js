@@ -10,7 +10,7 @@ var config = {
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
   recaptcha_sitekey: '6LfkUCIUAAAAANzA5pAiY10KcI6uPf1j0a_8N_5R',  // <----- EDIT ME!
-  redirect_uri: 'https://nomfang2.github.io/Bitkorio/',
+  redirect_uri: 'nomfang2.github.io',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
   chat_uri: '//socket.moneypot.com',
